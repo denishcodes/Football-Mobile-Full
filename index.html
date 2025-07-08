@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Penalty Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="gameContainer">
+    <div id="dashboard">
+      <p><strong>Goals:</strong> <span id="score">0</span></p>
+      <p><strong>Misses:</strong> <span id="misses">0</span></p>
+      <p><strong>Shots Left:</strong> <span id="shotsLeft">10</span></p>
+      <p><strong>Time:</strong> <span id="time">0</span>s</p>
+    </div>
+    <canvas id="gameCanvas" width="700" height="450"></canvas>
+    <div id="instructions">
+      <p>360° Slide to aim • Auto-shoot in 3s • Enter to shoot</p>
+    </div>
+    <button id="restartBtn" style="display: none;">Restart Game</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
